@@ -1,0 +1,276 @@
+A,B,vU,vI,rU,rI,A_names,B_names
+x1,i1,1|0|0,1|0|0,49,36,Israel,Autonomous Palestinian state on the West Bank and Gaza
+x1,i2,1|0|0,0|1|0,49,6,Israel,Israeli military outposts along the Jordan River
+x1,i3,1|0|0,1|0|0,49,36,Israel,Israel retains East Jerusalem
+x1,i4,1|0|0,0|1|0,49,6,Israel,Israeli military outposts on the Golan Heights
+x1,i5,1|0|0,0|0|1,49,1,Israel,Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i1|i2,1|0|0,1|1|0,49,42,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River
+x1,i1|i3,1|0|0,2|0|0,49,72,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem
+x1,i1|i4,1|0|0,1|1|0,49,42,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights
+x1,i1|i5,1|0|0,1|0|1,49,37,Israel,Autonomous Palestinian state on the West Bank and Gaza|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i2|i3,1|0|0,1|1|0,49,42,Israel,Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x1,i2|i4,1|0|0,0|2|0,49,12,Israel,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x1,i2|i5,1|0|0,0|1|1,49,7,Israel,Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i3|i4,1|0|0,1|1|0,49,42,Israel,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x1,i3|i5,1|0|0,1|0|1,49,37,Israel,Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i4|i5,1|0|0,0|1|1,49,7,Israel,Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i1|i2|i3,1|0|0,2|1|0,49,78,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x1,i1|i2|i4,1|0|0,1|2|0,49,48,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x1,i1|i2|i5,1|0|0,1|1|1,49,43,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i1|i3|i4,1|0|0,2|1|0,49,78,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x1,i1|i3|i5,1|0|0,2|0|1,49,73,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i1|i4|i5,1|0|0,1|1|1,49,43,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i2|i3|i4,1|0|0,1|2|0,49,48,Israel,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x1,i2|i3|i5,1|0|0,1|1|1,49,43,Israel,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i2|i4|i5,1|0|0,0|2|1,49,13,Israel,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i3|i4|i5,1|0|0,1|1|1,49,43,Israel,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i1|i2|i3|i4,1|0|0,2|2|0,49,84,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x1,i1|i2|i3|i5,1|0|0,2|1|1,49,79,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i1|i2|i4|i5,1|0|0,1|2|1,49,49,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i1|i3|i4|i5,1|0|0,2|1|1,49,79,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i2|i3|i4|i5,1|0|0,1|2|1,49,49,Israel,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i1|i2|i3|i4|i5,1|0|0,2|2|1,49,85,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i1,1|0|0,1|0|0,49,36,Egypt,Autonomous Palestinian state on the West Bank and Gaza
+x2,i2,1|0|0,0|1|0,49,6,Egypt,Israeli military outposts along the Jordan River
+x2,i3,1|0|0,1|0|0,49,36,Egypt,Israel retains East Jerusalem
+x2,i4,1|0|0,0|1|0,49,6,Egypt,Israeli military outposts on the Golan Heights
+x2,i5,1|0|0,0|0|1,49,1,Egypt,Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i1|i2,1|0|0,1|1|0,49,42,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River
+x2,i1|i3,1|0|0,2|0|0,49,72,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem
+x2,i1|i4,1|0|0,1|1|0,49,42,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights
+x2,i1|i5,1|0|0,1|0|1,49,37,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i2|i3,1|0|0,1|1|0,49,42,Egypt,Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x2,i2|i4,1|0|0,0|2|0,49,12,Egypt,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x2,i2|i5,1|0|0,0|1|1,49,7,Egypt,Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i3|i4,1|0|0,1|1|0,49,42,Egypt,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x2,i3|i5,1|0|0,1|0|1,49,37,Egypt,Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i4|i5,1|0|0,0|1|1,49,7,Egypt,Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i1|i2|i3,1|0|0,2|1|0,49,78,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x2,i1|i2|i4,1|0|0,1|2|0,49,48,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x2,i1|i2|i5,1|0|0,1|1|1,49,43,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i1|i3|i4,1|0|0,2|1|0,49,78,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x2,i1|i3|i5,1|0|0,2|0|1,49,73,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i1|i4|i5,1|0|0,1|1|1,49,43,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i2|i3|i4,1|0|0,1|2|0,49,48,Egypt,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x2,i2|i3|i5,1|0|0,1|1|1,49,43,Egypt,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i2|i4|i5,1|0|0,0|2|1,49,13,Egypt,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i3|i4|i5,1|0|0,1|1|1,49,43,Egypt,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i1|i2|i3|i4,1|0|0,2|2|0,49,84,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x2,i1|i2|i3|i5,1|0|0,2|1|1,49,79,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i1|i2|i4|i5,1|0|0,1|2|1,49,49,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i1|i3|i4|i5,1|0|0,2|1|1,49,79,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i2|i3|i4|i5,1|0|0,1|2|1,49,49,Egypt,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i1|i2|i3|i4|i5,1|0|0,2|2|1,49,85,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i1,0|1|0,1|0|0,7,36,Palestine,Autonomous Palestinian state on the West Bank and Gaza
+x3,i2,0|1|0,0|1|0,7,6,Palestine,Israeli military outposts along the Jordan River
+x3,i3,0|1|0,1|0|0,7,36,Palestine,Israel retains East Jerusalem
+x3,i4,0|1|0,0|1|0,7,6,Palestine,Israeli military outposts on the Golan Heights
+x3,i5,0|1|0,0|0|1,7,1,Palestine,Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i1|i2,0|1|0,1|1|0,7,42,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River
+x3,i1|i3,0|1|0,2|0|0,7,72,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem
+x3,i1|i4,0|1|0,1|1|0,7,42,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights
+x3,i1|i5,0|1|0,1|0|1,7,37,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i2|i3,0|1|0,1|1|0,7,42,Palestine,Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x3,i2|i4,0|1|0,0|2|0,7,12,Palestine,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x3,i2|i5,0|1|0,0|1|1,7,7,Palestine,Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i3|i4,0|1|0,1|1|0,7,42,Palestine,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x3,i3|i5,0|1|0,1|0|1,7,37,Palestine,Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i4|i5,0|1|0,0|1|1,7,7,Palestine,Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i1|i2|i3,0|1|0,2|1|0,7,78,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x3,i1|i2|i4,0|1|0,1|2|0,7,48,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x3,i1|i2|i5,0|1|0,1|1|1,7,43,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i1|i3|i4,0|1|0,2|1|0,7,78,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x3,i1|i3|i5,0|1|0,2|0|1,7,73,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i1|i4|i5,0|1|0,1|1|1,7,43,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i2|i3|i4,0|1|0,1|2|0,7,48,Palestine,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x3,i2|i3|i5,0|1|0,1|1|1,7,43,Palestine,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i2|i4|i5,0|1|0,0|2|1,7,13,Palestine,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i3|i4|i5,0|1|0,1|1|1,7,43,Palestine,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i1|i2|i3|i4,0|1|0,2|2|0,7,84,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x3,i1|i2|i3|i5,0|1|0,2|1|1,7,79,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i1|i2|i4|i5,0|1|0,1|2|1,7,49,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i1|i3|i4|i5,0|1|0,2|1|1,7,79,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i2|i3|i4|i5,0|1|0,1|2|1,7,49,Palestine,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x3,i1|i2|i3|i4|i5,0|1|0,2|2|1,7,85,Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i1,0|0|1,1|0|0,1,36,Jordan,Autonomous Palestinian state on the West Bank and Gaza
+x4,i2,0|0|1,0|1|0,1,6,Jordan,Israeli military outposts along the Jordan River
+x4,i3,0|0|1,1|0|0,1,36,Jordan,Israel retains East Jerusalem
+x4,i4,0|0|1,0|1|0,1,6,Jordan,Israeli military outposts on the Golan Heights
+x4,i5,0|0|1,0|0|1,1,1,Jordan,Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i1|i2,0|0|1,1|1|0,1,42,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River
+x4,i1|i3,0|0|1,2|0|0,1,72,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem
+x4,i1|i4,0|0|1,1|1|0,1,42,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights
+x4,i1|i5,0|0|1,1|0|1,1,37,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i2|i3,0|0|1,1|1|0,1,42,Jordan,Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x4,i2|i4,0|0|1,0|2|0,1,12,Jordan,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x4,i2|i5,0|0|1,0|1|1,1,7,Jordan,Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i3|i4,0|0|1,1|1|0,1,42,Jordan,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x4,i3|i5,0|0|1,1|0|1,1,37,Jordan,Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i4|i5,0|0|1,0|1|1,1,7,Jordan,Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i1|i2|i3,0|0|1,2|1|0,1,78,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x4,i1|i2|i4,0|0|1,1|2|0,1,48,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x4,i1|i2|i5,0|0|1,1|1|1,1,43,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i1|i3|i4,0|0|1,2|1|0,1,78,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x4,i1|i3|i5,0|0|1,2|0|1,1,73,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i1|i4|i5,0|0|1,1|1|1,1,43,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i2|i3|i4,0|0|1,1|2|0,1,48,Jordan,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x4,i2|i3|i5,0|0|1,1|1|1,1,43,Jordan,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i2|i4|i5,0|0|1,0|2|1,1,13,Jordan,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i3|i4|i5,0|0|1,1|1|1,1,43,Jordan,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i1|i2|i3|i4,0|0|1,2|2|0,1,84,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x4,i1|i2|i3|i5,0|0|1,2|1|1,1,79,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i1|i2|i4|i5,0|0|1,1|2|1,1,49,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i1|i3|i4|i5,0|0|1,2|1|1,1,79,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i2|i3|i4|i5,0|0|1,1|2|1,1,49,Jordan,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x4,i1|i2|i3|i4|i5,0|0|1,2|2|1,1,85,Jordan,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i1,0|0|1,1|0|0,1,36,Syria,Autonomous Palestinian state on the West Bank and Gaza
+x5,i2,0|0|1,0|1|0,1,6,Syria,Israeli military outposts along the Jordan River
+x5,i3,0|0|1,1|0|0,1,36,Syria,Israel retains East Jerusalem
+x5,i4,0|0|1,0|1|0,1,6,Syria,Israeli military outposts on the Golan Heights
+x5,i5,0|0|1,0|0|1,1,1,Syria,Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i1|i2,0|0|1,1|1|0,1,42,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River
+x5,i1|i3,0|0|1,2|0|0,1,72,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem
+x5,i1|i4,0|0|1,1|1|0,1,42,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights
+x5,i1|i5,0|0|1,1|0|1,1,37,Syria,Autonomous Palestinian state on the West Bank and Gaza|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i2|i3,0|0|1,1|1|0,1,42,Syria,Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x5,i2|i4,0|0|1,0|2|0,1,12,Syria,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x5,i2|i5,0|0|1,0|1|1,1,7,Syria,Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i3|i4,0|0|1,1|1|0,1,42,Syria,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x5,i3|i5,0|0|1,1|0|1,1,37,Syria,Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i4|i5,0|0|1,0|1|1,1,7,Syria,Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i1|i2|i3,0|0|1,2|1|0,1,78,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x5,i1|i2|i4,0|0|1,1|2|0,1,48,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x5,i1|i2|i5,0|0|1,1|1|1,1,43,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i1|i3|i4,0|0|1,2|1|0,1,78,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x5,i1|i3|i5,0|0|1,2|0|1,1,73,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i1|i4|i5,0|0|1,1|1|1,1,43,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i2|i3|i4,0|0|1,1|2|0,1,48,Syria,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x5,i2|i3|i5,0|0|1,1|1|1,1,43,Syria,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i2|i4|i5,0|0|1,0|2|1,1,13,Syria,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i3|i4|i5,0|0|1,1|1|1,1,43,Syria,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i1|i2|i3|i4,0|0|1,2|2|0,1,84,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x5,i1|i2|i3|i5,0|0|1,2|1|1,1,79,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i1|i2|i4|i5,0|0|1,1|2|1,1,49,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i1|i3|i4|i5,0|0|1,2|1|1,1,79,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i2|i3|i4|i5,0|0|1,1|2|1,1,49,Syria,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x5,i1|i2|i3|i4|i5,0|0|1,2|2|1,1,85,Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i1,0|1|0,1|0|0,7,36,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza
+x6,i2,0|1|0,0|1|0,7,6,Saudi Arabia,Israeli military outposts along the Jordan River
+x6,i3,0|1|0,1|0|0,7,36,Saudi Arabia,Israel retains East Jerusalem
+x6,i4,0|1|0,0|1|0,7,6,Saudi Arabia,Israeli military outposts on the Golan Heights
+x6,i5,0|1|0,0|0|1,7,1,Saudi Arabia,Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i1|i2,0|1|0,1|1|0,7,42,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River
+x6,i1|i3,0|1|0,2|0|0,7,72,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem
+x6,i1|i4,0|1|0,1|1|0,7,42,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights
+x6,i1|i5,0|1|0,1|0|1,7,37,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i2|i3,0|1|0,1|1|0,7,42,Saudi Arabia,Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x6,i2|i4,0|1|0,0|2|0,7,12,Saudi Arabia,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x6,i2|i5,0|1|0,0|1|1,7,7,Saudi Arabia,Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i3|i4,0|1|0,1|1|0,7,42,Saudi Arabia,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x6,i3|i5,0|1|0,1|0|1,7,37,Saudi Arabia,Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i4|i5,0|1|0,0|1|1,7,7,Saudi Arabia,Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i1|i2|i3,0|1|0,2|1|0,7,78,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x6,i1|i2|i4,0|1|0,1|2|0,7,48,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x6,i1|i2|i5,0|1|0,1|1|1,7,43,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i1|i3|i4,0|1|0,2|1|0,7,78,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x6,i1|i3|i5,0|1|0,2|0|1,7,73,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i1|i4|i5,0|1|0,1|1|1,7,43,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i2|i3|i4,0|1|0,1|2|0,7,48,Saudi Arabia,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x6,i2|i3|i5,0|1|0,1|1|1,7,43,Saudi Arabia,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i2|i4|i5,0|1|0,0|2|1,7,13,Saudi Arabia,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i3|i4|i5,0|1|0,1|1|1,7,43,Saudi Arabia,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i1|i2|i3|i4,0|1|0,2|2|0,7,84,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x6,i1|i2|i3|i5,0|1|0,2|1|1,7,79,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i1|i2|i4|i5,0|1|0,1|2|1,7,49,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i1|i3|i4|i5,0|1|0,2|1|1,7,79,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i2|i3|i4|i5,0|1|0,1|2|1,7,49,Saudi Arabia,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x6,i1|i2|i3|i4|i5,0|1|0,2|2|1,7,85,Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x1|x6,i2,1|1|0,0|1|0,56,6,Israel|Saudi Arabia,Israeli military outposts along the Jordan River
+x1|x6,i5,1|1|0,0|0|1,56,1,Israel|Saudi Arabia,Arab countries grant citizenship to Palestinians who remain within their borders
+x1|x6,i2|i5,1|1|0,0|1|1,56,7,Israel|Saudi Arabia,Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x3,i1,1|1|0,1|0|0,56,36,Egypt|Palestine,Autonomous Palestinian state on the West Bank and Gaza
+x2|x3,i3,1|1|0,1|0|0,56,36,Egypt|Palestine,Israel retains East Jerusalem
+x2|x3,i4,1|1|0,0|1|0,56,6,Egypt|Palestine,Israeli military outposts on the Golan Heights
+x2|x3,i1|i3,1|1|0,2|0|0,56,72,Egypt|Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem
+x2|x3,i1|i4,1|1|0,1|1|0,56,42,Egypt|Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights
+x2|x3,i3|i4,1|1|0,1|1|0,56,42,Egypt|Palestine,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x2|x3,i1|i3|i4,1|1|0,2|1|0,56,78,Egypt|Palestine,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x2|x4,i3,1|0|1,1|0|0,50,36,Egypt|Jordan,Israel retains East Jerusalem
+x2|x4,i5,1|0|1,0|0|1,50,1,Egypt|Jordan,Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x4,i3|i5,1|0|1,1|0|1,50,37,Egypt|Jordan,Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x5,i1,1|0|1,1|0|0,50,36,Egypt|Syria,Autonomous Palestinian state on the West Bank and Gaza
+x2|x5,i3,1|0|1,1|0|0,50,36,Egypt|Syria,Israel retains East Jerusalem
+x2|x5,i4,1|0|1,0|1|0,50,6,Egypt|Syria,Israeli military outposts on the Golan Heights
+x2|x5,i5,1|0|1,0|0|1,50,1,Egypt|Syria,Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x5,i1|i3,1|0|1,2|0|0,50,72,Egypt|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem
+x2|x5,i1|i4,1|0|1,1|1|0,50,42,Egypt|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights
+x2|x5,i1|i5,1|0|1,1|0|1,50,37,Egypt|Syria,Autonomous Palestinian state on the West Bank and Gaza|Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x5,i3|i4,1|0|1,1|1|0,50,42,Egypt|Syria,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x2|x5,i3|i5,1|0|1,1|0|1,50,37,Egypt|Syria,Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x5,i4|i5,1|0|1,0|1|1,50,7,Egypt|Syria,Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x5,i1|i3|i4,1|0|1,2|1|0,50,78,Egypt|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x2|x5,i1|i3|i5,1|0|1,2|0|1,50,73,Egypt|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x5,i1|i4|i5,1|0|1,1|1|1,50,43,Egypt|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x5,i3|i4|i5,1|0|1,1|1|1,50,43,Egypt|Syria,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x5,i1|i3|i4|i5,1|0|1,2|1|1,50,79,Egypt|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x6,i3,1|1|0,1|0|0,56,36,Egypt|Saudi Arabia,Israel retains East Jerusalem
+x3|x4,i2,0|1|1,0|1|0,8,6,Palestine|Jordan,Israeli military outposts along the Jordan River
+x3|x4,i3,0|1|1,1|0|0,8,36,Palestine|Jordan,Israel retains East Jerusalem
+x3|x4,i2|i3,0|1|1,1|1|0,8,42,Palestine|Jordan,Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x3|x5,i1,0|1|1,1|0|0,8,36,Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza
+x3|x5,i2,0|1|1,0|1|0,8,6,Palestine|Syria,Israeli military outposts along the Jordan River
+x3|x5,i3,0|1|1,1|0|0,8,36,Palestine|Syria,Israel retains East Jerusalem
+x3|x5,i4,0|1|1,0|1|0,8,6,Palestine|Syria,Israeli military outposts on the Golan Heights
+x3|x5,i1|i2,0|1|1,1|1|0,8,42,Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River
+x3|x5,i1|i3,0|1|1,2|0|0,8,72,Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem
+x3|x5,i1|i4,0|1|1,1|1|0,8,42,Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights
+x3|x5,i2|i3,0|1|1,1|1|0,8,42,Palestine|Syria,Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x3|x5,i2|i4,0|1|1,0|2|0,8,12,Palestine|Syria,Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x3|x5,i3|i4,0|1|1,1|1|0,8,42,Palestine|Syria,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x3|x5,i1|i2|i3,0|1|1,2|1|0,8,78,Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x3|x5,i1|i2|i4,0|1|1,1|2|0,8,48,Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israeli military outposts on the Golan Heights
+x3|x5,i1|i3|i4,0|1|1,2|1|0,8,78,Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x3|x5,i2|i3|i4,0|1|1,1|2|0,8,48,Palestine|Syria,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x3|x5,i1|i2|i3|i4,0|1|1,2|2|0,8,84,Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x3|x6,i3,0|2|0,1|0|0,14,36,Palestine|Saudi Arabia,Israel retains East Jerusalem
+x4|x5,i2,0|0|2,0|1|0,2,6,Jordan|Syria,Israeli military outposts along the Jordan River
+x4|x5,i3,0|0|2,1|0|0,2,36,Jordan|Syria,Israel retains East Jerusalem
+x4|x5,i5,0|0|2,0|0|1,2,1,Jordan|Syria,Arab countries grant citizenship to Palestinians who remain within their borders
+x4|x5,i2|i3,0|0|2,1|1|0,2,42,Jordan|Syria,Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x4|x5,i2|i5,0|0|2,0|1|1,2,7,Jordan|Syria,Israeli military outposts along the Jordan River|Arab countries grant citizenship to Palestinians who remain within their borders
+x4|x5,i3|i5,0|0|2,1|0|1,2,37,Jordan|Syria,Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x4|x5,i2|i3|i5,0|0|2,1|1|1,2,43,Jordan|Syria,Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x4|x6,i1,0|1|1,1|0|0,8,36,Jordan|Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza
+x4|x6,i3,0|1|1,1|0|0,8,36,Jordan|Saudi Arabia,Israel retains East Jerusalem
+x4|x6,i4,0|1|1,0|1|0,8,6,Jordan|Saudi Arabia,Israeli military outposts on the Golan Heights
+x4|x6,i1|i3,0|1|1,2|0|0,8,72,Jordan|Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem
+x4|x6,i1|i4,0|1|1,1|1|0,8,42,Jordan|Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights
+x4|x6,i3|i4,0|1|1,1|1|0,8,42,Jordan|Saudi Arabia,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x4|x6,i1|i3|i4,0|1|1,2|1|0,8,78,Jordan|Saudi Arabia,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x5|x6,i3,0|1|1,1|0|0,8,36,Syria|Saudi Arabia,Israel retains East Jerusalem
+x2|x3|x4,i3,1|1|1,1|0|0,57,36,Egypt|Palestine|Jordan,Israel retains East Jerusalem
+x2|x3|x5,i1,1|1|1,1|0|0,57,36,Egypt|Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza
+x2|x3|x5,i3,1|1|1,1|0|0,57,36,Egypt|Palestine|Syria,Israel retains East Jerusalem
+x2|x3|x5,i4,1|1|1,0|1|0,57,6,Egypt|Palestine|Syria,Israeli military outposts on the Golan Heights
+x2|x3|x5,i1|i3,1|1|1,2|0|0,57,72,Egypt|Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem
+x2|x3|x5,i1|i4,1|1|1,1|1|0,57,42,Egypt|Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts on the Golan Heights
+x2|x3|x5,i3|i4,1|1|1,1|1|0,57,42,Egypt|Palestine|Syria,Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x2|x3|x5,i1|i3|i4,1|1|1,2|1|0,57,78,Egypt|Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x2|x3|x6,i3,1|2|0,1|0|0,63,36,Egypt|Palestine|Saudi Arabia,Israel retains East Jerusalem
+x2|x4|x5,i3,1|0|2,1|0|0,51,36,Egypt|Jordan|Syria,Israel retains East Jerusalem
+x2|x4|x5,i5,1|0|2,0|0|1,51,1,Egypt|Jordan|Syria,Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x4|x5,i3|i5,1|0|2,1|0|1,51,37,Egypt|Jordan|Syria,Israel retains East Jerusalem|Arab countries grant citizenship to Palestinians who remain within their borders
+x2|x4|x6,i3,1|1|1,1|0|0,57,36,Egypt|Jordan|Saudi Arabia,Israel retains East Jerusalem
+x2|x5|x6,i3,1|1|1,1|0|0,57,36,Egypt|Syria|Saudi Arabia,Israel retains East Jerusalem
+x3|x4|x5,i2,0|1|2,0|1|0,9,6,Palestine|Jordan|Syria,Israeli military outposts along the Jordan River
+x3|x4|x5,i3,0|1|2,1|0|0,9,36,Palestine|Jordan|Syria,Israel retains East Jerusalem
+x3|x4|x5,i2|i3,0|1|2,1|1|0,9,42,Palestine|Jordan|Syria,Israeli military outposts along the Jordan River|Israel retains East Jerusalem
+x3|x4|x6,i3,0|2|1,1|0|0,15,36,Palestine|Jordan|Saudi Arabia,Israel retains East Jerusalem
+x3|x5|x6,i3,0|2|1,1|0|0,15,36,Palestine|Syria|Saudi Arabia,Israel retains East Jerusalem
+x4|x5|x6,i3,0|1|2,1|0|0,9,36,Jordan|Syria|Saudi Arabia,Israel retains East Jerusalem
+x2|x3|x4|x5,i3,1|1|2,1|0|0,58,36,Egypt|Palestine|Jordan|Syria,Israel retains East Jerusalem
+x2|x3|x4|x6,i3,1|2|1,1|0|0,64,36,Egypt|Palestine|Jordan|Saudi Arabia,Israel retains East Jerusalem
+x2|x3|x5|x6,i3,1|2|1,1|0|0,64,36,Egypt|Palestine|Syria|Saudi Arabia,Israel retains East Jerusalem
+x2|x4|x5|x6,i3,1|1|2,1|0|0,58,36,Egypt|Jordan|Syria|Saudi Arabia,Israel retains East Jerusalem
+x3|x4|x5|x6,i3,0|2|2,1|0|0,16,36,Palestine|Jordan|Syria|Saudi Arabia,Israel retains East Jerusalem
+x2|x3|x4|x5|x6,i3,1|2|2,1|0|0,65,36,Egypt|Palestine|Jordan|Syria|Saudi Arabia,Israel retains East Jerusalem

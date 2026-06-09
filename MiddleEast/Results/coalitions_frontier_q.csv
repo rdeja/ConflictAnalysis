@@ -1,0 +1,6 @@
+A,B,vU,vI,rU,rI,A_names,B_names
+x2|x3|x4|x5|x6,i3,1|2|2,1|0|0,65,36,Egypt|Palestine|Jordan|Syria|Saudi Arabia,Israel retains East Jerusalem
+x2|x3|x5,i1|i3|i4,1|1|1,2|1|0,57,78,Egypt|Palestine|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights
+x2|x5,i1|i3|i4|i5,1|0|1,2|1|1,50,79,Egypt|Syria,Autonomous Palestinian state on the West Bank and Gaza|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x1,i1|i2|i3|i4|i5,1|0|0,2|2|1,49,85,Israel,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders
+x2,i1|i2|i3|i4|i5,1|0|0,2|2|1,49,85,Egypt,Autonomous Palestinian state on the West Bank and Gaza|Israeli military outposts along the Jordan River|Israel retains East Jerusalem|Israeli military outposts on the Golan Heights|Arab countries grant citizenship to Palestinians who remain within their borders

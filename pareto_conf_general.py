@@ -170,6 +170,9 @@ def pareto_frontier(items: Iterable[object], dominates: Callable[[object, object
     """
     Generic O(n^2) Pareto frontier:
     keep x iff there is no y such that y dominates x.
+
+    NOTE: This is retained for reference only. All internal callers have been
+    replaced with O(n log n) specialised implementations.
     """
     items = list(items)
     frontier = []
@@ -548,8 +551,36 @@ def frontier_Q(structures: Iterable[Structure]) -> List[Structure]:
 
 
 def frontier_Q_star(structures: Iterable[Structure]) -> List[Structure]:
-    """Correct frontier under >>*_Q using a generic Pareto check."""
-    return pareto_frontier(structures, dominates_Q_star)  # type: ignore[arg-type]
+    """
+    O(n log n) frontier under >>*_Q.
+
+    >>*_Q extends >>_Q with two asymmetric trade-off cases that can dominate
+    even when one rank is strictly worse:
+      (T1) rU(a) > rU(b)  and  rI(a) < rI(b)  and  first_diff_U < first_diff_I
+      (T2) rU(a) < rU(b)  and  rI(a) > rI(b)  and  first_diff_I < first_diff_U
+
+    Strategy:
+      1. Run the O(n log n) 2D skyline to get the >>_Q frontier F.
+         Any item not in F is dominated by something that is also >= on *both*
+         dimensions, which is already stronger than any >>*_Q domination, so
+         non-frontier items under >>_Q cannot survive under >>*_Q either.
+      2. Within the small set F, apply the full >>*_Q pairwise check.
+         In practice |F| << n, so this step is negligible.
+    """
+    items = list(structures)
+    # Step 1: cheap pre-filter via the weaker >>_Q skyline.
+    candidates: List[Structure] = skyline_2d_max(items, key_x=lambda s: s.rU, key_y=lambda s: s.rI)  # type: ignore[arg-type]
+    # Step 2: pairwise check only among the small frontier.
+    n = len(candidates)
+    dominated = [False] * n
+    for i in range(n):
+        if dominated[i]:
+            continue
+        for j in range(n):
+            if i != j and not dominated[j] and dominates_Q_star(candidates[j], candidates[i]):
+                dominated[i] = True
+                break
+    return [s for s, d in zip(candidates, dominated) if not d]
 
 
 # ============================================================
@@ -577,12 +608,85 @@ def dominates_bi_Q_star(a: BiConflict, b: BiConflict) -> bool:
     return coalition_dominance and opposition_dominance  # both must dominate
 
 
+def _struct_frontier_for(
+    structures: Iterable[Structure],
+    struct_dominates: Callable[[Structure, Structure], bool],
+) -> List[Structure]:
+    """Return the Pareto frontier of *structures* under *struct_dominates*."""
+    if struct_dominates is dominates_Q:
+        return skyline_2d_max(list(structures), key_x=lambda s: s.rU, key_y=lambda s: s.rI)  # type: ignore[arg-type]
+    return frontier_Q_star(list(structures))
+
+
+def _biconflict_frontier(
+    biconflicts: Iterable[BiConflict],
+    struct_dominates: Callable[[Structure, Structure], bool],
+) -> List[BiConflict]:
+    """
+    O(n log n) biconflict frontier for dominance relations of the form:
+        a dom b  iff  (a.coal dom b.coal AND a.opp dom b.opp)
+                   OR (a.coal == b.coal AND a.opp dom b.opp)
+                   OR (a.opp  == b.opp  AND a.coal dom b.coal)
+
+    Algorithm
+    ---------
+    1. Compute the Pareto frontier of *all* coalition components — O(n log n).
+       A biconflict (c, o) can only be dominated by some (c', o') where c' dom c
+       or c' == c.  If c is not on the coalition frontier there exists a c'' with
+       c'' strictly dom c; any (c'', o'') with o'' dom o (or o'' == o) then
+       dominates (c, o) regardless of o.  However, the "same component" special
+       cases mean we cannot independently discard by one dimension only, so we use
+       the frontier membership as a *pre-filter*: keep a biconflict if its
+       coalition OR its opposition survives its respective frontier.
+    2. Within the much smaller candidate set, apply a pairwise dominance check.
+    """
+    items = list(biconflicts)
+    if not items:
+        return []
+
+    # Build id-based membership sets for fast lookup.
+    coal_front_ids: set = {id(s) for s in _struct_frontier_for(
+        (bc.coalition for bc in items), struct_dominates
+    )}
+    opp_front_ids: set = {id(s) for s in _struct_frontier_for(
+        (bc.opposition for bc in items), struct_dominates
+    )}
+
+    # Pre-filter: keep biconflicts where at least one component is on its frontier.
+    candidates = [
+        bc for bc in items
+        if id(bc.coalition) in coal_front_ids or id(bc.opposition) in opp_front_ids
+    ]
+
+    # Pairwise check among the small candidate set.
+    n = len(candidates)
+    dominated = [False] * n
+    for i in range(n):
+        if dominated[i]:
+            continue
+        for j in range(n):
+            if i == j or dominated[j]:
+                continue
+            a, b = candidates[j], candidates[i]
+            cd = struct_dominates(a.coalition, b.coalition)
+            od = struct_dominates(a.opposition, b.opposition)
+            same_coal = a.coalition == b.coalition
+            same_opp  = a.opposition == b.opposition
+            if (same_coal and od) or (same_opp and cd) or (cd and od):
+                dominated[i] = True
+                break
+
+    return [bc for bc, d in zip(candidates, dominated) if not d]
+
+
 def biconflict_frontier_Q(biconflicts: Iterable[BiConflict]) -> List[BiConflict]:
-    return pareto_frontier(biconflicts, dominates_bi_Q)  # type: ignore[arg-type]
+    return _biconflict_frontier(biconflicts, dominates_Q)  # type: ignore[arg-type]
 
 
 def biconflict_frontier_Q_star(biconflicts: Iterable[BiConflict]) -> List[BiConflict]:
-    return pareto_frontier(biconflicts, dominates_bi_Q_star)  # type: ignore[arg-type]
+    return _biconflict_frontier(biconflicts, dominates_Q_star)  # type: ignore[arg-type]
+
+
 
 
 # ============================================================
@@ -783,7 +887,6 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--encoding", default="utf-8-sig", help="CSV encoding (default: utf-8-sig)")
     parser.add_argument("--coalitions", action="store_true", help="Enumerate all admissible coalitions")
     parser.add_argument("--group", help="Reference group for opposition / bi-conflict analysis (comma-separated ids, e.g. x1,x2)")
-    parser.add_argument("--relaxed", action="store_true", help="Use relaxed opposition semantics where supported")
     parser.add_argument("--frontier", choices=["q", "qstar", "both", "none"], default="none", help="Which frontier to compute for the requested objects")
     parser.add_argument("--biconflicts", action="store_true", help="When used with --group, enumerate bi-conflicts for that group")
     parser.add_argument("--export-prefix", help="Optional prefix for exporting CSV results, e.g. out/results")
@@ -840,7 +943,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
 
     if args.group:
         G = _parse_group(args.group)
-        oppositions = model.enumerate_oppositions_for_group(G, relaxed=args.relaxed)
+        oppositions = model.enumerate_oppositions_for_group(G)
         _print_structures(f"Oppositions to group {model.fmt_agents(G)}", oppositions, model)
 
         q_front = None
@@ -861,7 +964,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                 export_structures_csv(prefix.with_name(prefix.name + "_oppositions_frontier_qstar.csv"), qstar_front, model, delimiter=args.delimiter)
 
         if args.biconflicts:
-            biconflicts = model.enumerate_biconflicts_for_group(G, relaxed=args.relaxed)
+            biconflicts = model.enumerate_biconflicts_for_group(G)
             _print_biconflicts(f"Bi-conflicts for group {model.fmt_agents(G)}", biconflicts, model)
 
             bi_front_q = None
