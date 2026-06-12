@@ -4,8 +4,8 @@ from __future__ import annotations
 """
 Generic qualitative conflict analysis with CSV loading.
 
-This module generalizes a hard-coded case-study script into a reusable,
-validated library that can analyze arbitrary conflict instances loaded from CSV.
+This module implements a validated library that can analyze arbitrary conflict 
+instances loaded from CSV.
 
 Expected CSV files
 ==================
@@ -482,8 +482,8 @@ class ConflictModel(Generic[TAgent, TIssue]):
         if not Bmax:
             return []
 
-        # coalitions = [self.make_structure(G, frozenset(B)) for B in powerset_nonempty(sorted(Bmax, key=str))]
-        coalitions = [self.make_structure(G, frozenset(Bmax))]
+        coalitions = [self.make_structure(G, frozenset(B)) for B in powerset_nonempty(sorted(Bmax, key=str))]
+        # coalitions = [self.make_structure(G, frozenset(Bmax))]
         oppositions = self.enumerate_oppositions_for_group(G)
         return [BiConflict(coalition=c, opposition=o) for c in coalitions for o in oppositions]
 
